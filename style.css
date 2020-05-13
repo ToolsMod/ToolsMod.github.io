@@ -1,0 +1,66 @@
+/*
+    Contant - Introduction
+*/
+
+#introduction #littleTag{
+    font-size:60%;
+    color: rgb(167, 167, 167);
+}
+
+/*
+    Content - Features
+*/
+
+#features #featureList{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+#features table td h3{
+    margin-bottom:10%;
+}
+
+#features table{
+    margin-top:5vh;
+    width:80%;
+    border-collapse: collapse;
+}
+
+#features table img{
+    max-width: 100%;
+}
+
+#features table td{
+    border: 5px solid black;
+}
+
+#features table td:first-child{
+    width:40%;
+    height:10rem;
+    background-size: cover !important;
+}
+
+.fl{
+    background-position-x: left !important;
+}
+.fr{
+    background-position-x: right !important;
+}
+.ft{
+    background-position-y: top !important;
+}
+.fb{
+    background-position-y: bottom !important;
+}
+.fxc{
+    background-position-x: center !important;
+}
+.fyc{
+    background-position-y: center !important;
+}
+
+#features table td:last-child{
+    width:60%;
+    padding: 2%;
+}

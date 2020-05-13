@@ -1,0 +1,24 @@
+table{
+    margin-top:5%;
+    width:60vw;
+    border-collapse: collapse;
+}
+table tbody,table{
+    border: 2px solid white;
+}
+table tr{
+    height:3rem;
+}
+table th{
+    top:11.9vh;
+}
+
+.refused{
+    color: red;
+}
+.working{
+    color: orange;
+}
+.implemented{
+    color: rgb(0, 197, 0);
+}

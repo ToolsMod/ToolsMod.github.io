@@ -1,0 +1,40 @@
+table{
+    margin-top:5%;
+    width:60vw;
+    border-collapse: collapse;
+}
+table tbody,table{
+    border: 2px solid white;
+}
+table tr{
+    height:3rem;
+}
+table th{
+    top:11.9vh;
+}
+
+h3{
+    margin-top:5%;
+    font-size:2rem;
+}
+
+.mark{
+    border-radius:5px;
+    background: rgba(255, 166, 0, 0.829);
+    padding: 2px 4px;
+}
+
+img,video{
+    margin-top:3rem;
+    width: 60%;
+}
+
+ul{
+    margin-top:1rem;
+    list-style: none;
+    font-size: 1.4rem;
+}
+ul li{
+    border: 1px solid white;
+    padding: 1%;
+}
