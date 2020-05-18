@@ -1,0 +1,30 @@
+{
+    "release":"05/18/2020",
+    "changes":[
+      {
+        "feature":"The \"toolsmod\" folder",
+        "desc":"Removed the need to install the \"toolsmod\" folder",
+        "type":0
+      },{
+        "feature":"Update-checker",
+        "desc":"Update button got added",
+        "type":2
+      },{
+        "feature":"Gui",
+        "desc":"Set the gui sidebar color to black",
+        "type":1
+      },{
+        "feature":"Mapcreator module",
+        "desc":"Module to import images and let them be displayed and build",
+        "type":1
+      },{
+        "feature":"Auto-updater",
+        "desc":"Auto-updater to automatically download and update new versions",
+        "type":1
+      },{
+        "feature":"Changelog",
+        "desc":"Every time your start with a new version, you'll see a changelog window",
+        "type":1
+      }
+    ]
+  }

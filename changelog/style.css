@@ -17,6 +17,10 @@ table td{
     padding: 5px 20px;
 }
 
+p{
+    margin:0 !important;
+}
+
 h3{
     font-size: 2rem;
     margin: 5% 0;

@@ -1,0 +1,22 @@
+{
+  "release":"5/14/2020",
+  "changes":[
+    {
+      "feature":"Modules",
+      "desc":"General module structure",
+      "type":1
+    },{
+      "feature":"Commands",
+      "desc":"General command structure",
+      "type":1
+    },{
+      "feature":"Basic modules",
+      "desc":"All basic modules",
+      "type":1
+    },{
+      "feature":"Basic commands",
+      "desc":"All basic commands",
+      "type":1
+    }
+  ]
+}
