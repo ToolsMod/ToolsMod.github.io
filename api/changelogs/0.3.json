@@ -1,0 +1,70 @@
+{
+    "release":"05/24/2020",
+    "changes":[
+      {
+        "feature":"ASEdit",
+        "desc":"Removed the glowing attribute",
+        "type":0
+      },{
+        "feature":"Tweaks",
+        "desc":"Some little improvment's",
+        "type":2
+      },{
+        "feature":"Settings system",
+        "desc":"Settings system runs nur smoother",
+        "type":2
+      },{
+        "feature":"ASEdit",
+        "desc":"Reworked an create more advanced build system",
+        "type":2
+      },{
+        "feature":"Module display",
+        "desc":"Reworked the module info display (Previously only for ASEdit)",
+        "type":2
+      },{
+        "feature":"Color command",
+        "desc":"Added the color command",
+        "type":1
+      },{
+        "feature":"Rename command",
+        "desc":"Added the rename command",
+        "type":1
+      },{
+        "feature":"Step setting's",
+        "desc":"Added the height setting for the step module",
+        "type":1
+      },{
+        "feature":"ASEdit",
+        "desc":"Using glowing to indiate which stand was selected",
+        "type":1
+      },{
+        "feature":"ASEdit",
+        "desc":"Added the disabledslots property to the settings",
+        "type":1
+      },{
+        "feature":"ASEdit",
+        "desc":"Added information display for asedit",
+        "type":1
+      },{
+        "feature":"Bannerwriter",
+        "desc":"Added information display for the bannerwriter",
+        "type":1
+      },{
+        "feature":"Headwriter",
+        "desc":"Added information display for the headwriter",
+        "type":1
+      },{
+        "feature":"Keybind saving",
+        "desc":"Keybind will now be saved",
+        "type":1
+      },{
+        "feature":"Module toggle saving",
+        "desc":"Module toggle stats will now be saved",
+        "type":1
+      },{
+        "feature":"Settings saving",
+        "desc":"Settings values will now be saved",
+        "type":1
+      }
+    ]
+  }

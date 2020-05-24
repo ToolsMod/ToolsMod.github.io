@@ -35,10 +35,18 @@ async function loadChangelog(){
     let txt = await resp.text();
 
     //Loads every changelog
-    for(let i=parseFloat(txt);i>=0.1;i-=.1){
+    for(let i=parseFloat(txt)*10;i>=1;i--){
         try{
+            //Gets the actual version
+            let ver = i/10;
+
+            //Creates the table
+            var table = document.createElement("div"); 
+            table.setAttribute("id",ver);
+            list.appendChild(table);
+            
             //Tries to load the changelog
-            loadVersion(i);
+            loadVersion(ver);
         }catch(e){}
     }
 }
@@ -59,6 +67,9 @@ async function loadVersion(version){
     //Head
     let head = document.createElement("h3");
     head.textContent=`Version ${version}`;
+
+    //Gets the wrapper
+    let wrapper = document.getElementById(version);
 
     //Table
     let table = document.createElement("table");
@@ -93,9 +104,10 @@ async function loadVersion(version){
     table.appendChild(body);
 
     //Appends the changelog
-    list.appendChild(head);
-    list.appendChild(date);
-    list.appendChild(table);
+    wrapper.appendChild(head);
+    wrapper.appendChild(date);
+
+    wrapper.appendChild(table);
 
     
 }
